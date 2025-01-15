@@ -1,9 +1,9 @@
 Package: rv.git.pkgB
-Title: This Package Has No
+Title: This Package Has One Git Dependencies
 Version: 0.0.0.9000
 Authors@R: 
     person("Wes", "Cummings", , "wes@a2-ai.com", role = c("aut", "cre"))
-Description: This is a package that has no dependencies
+Description: This is a package that has a git dependency which has no other dependencies
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
