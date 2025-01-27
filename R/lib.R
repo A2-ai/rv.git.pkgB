@@ -1,7 +1,7 @@
 #' @export
-#' @importFrom rv.git.pkgA test_no_depends_package
+#' @importFrom rv.git.pkgA what_version_am_i
 
-test_git_depends_package <- function() {
-  print("rv.git.pkgB installed")
-  print(paste0("dependency ", rv.git.pkgA::test_no_depends_package()))
+what_version_am_i <- function() {
+  print("pkgB - v1")
+  print(sprintf("dependency %s", rv.git.pkgA::what_version_am_i()))
 }
