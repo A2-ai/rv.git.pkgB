@@ -10,3 +10,5 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 
 Depends: rv.git.pkgA
+
+Remotes: github::a2-ai/rv.git.pkgA
